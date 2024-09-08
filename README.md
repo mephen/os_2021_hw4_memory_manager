@@ -1,2 +1,2 @@
-# os_2024_hw3
-2024 hw3_memory-manager
+# os_2024_hw3-memory-manager
+
