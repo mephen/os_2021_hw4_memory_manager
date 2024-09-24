@@ -38,6 +38,7 @@ int kickTLBEntry()
                 min = tlbLRU[i];
             }
         }
+        //kick the victimTLB, and reset the used order of new tlbEntry
         tlbLRU[victimTLB] = 0;
         return victimTLB;
     }
@@ -50,11 +51,8 @@ void fillTLB(uint16_t vpn, int pfn)
         if (tlbEntry[i].valid)
             break;
     }
-    // there is no empty slot for TLB entries
-    if (i == 32)
+    if (i == 32) // there is no empty slot for TLB entries
         i = kickTLBEntry();
-    if (tlbPolicy == LRU)
-        tlbLRU[i] = tlbCounter++;
     tlbEntry[i].vpn = vpn;
     tlbEntry[i].pfn = pfn;
     tlbEntry[i].valid = false;
@@ -148,7 +146,7 @@ int kickPage(int PTBR, uint16_t refPage)
         return -1;
     }
 
-    fprintf(ftraceOutput, "Process %c, TLB Miss, Page Fault, %d be paged out, Evict %d of Process %c to %d, %d<<%d\n",
+    fprintf(ftraceOutput, "Process %c, TLB Miss, Page Fault, (pfn)%d, Evict (vpn)%d of Process %c to (dbi)%d, (vpn)%d << (dbi)%d\n",
             PTBR_TO_PROCESS, pfn, curNode->vpn, (curNode->proc + C_CHAR_OFFSET), dbi, refPage, pageTable[PTBR + refPage].pfn_dbi); //curNode 是被换出的页面，PTBR + refPage 是要載入的頁面
 
     pageTable[(curNode->proc * virPage) + curNode->vpn].bitField.byte = 0;
@@ -199,9 +197,9 @@ int16_t pageFaultHandler(int PTBR, uint16_t refPage)
     freePfn = freeFrameManager();
     if (freePfn == -1) // there is no free frames
         freePfn = kickPage(PTBR, refPage);
-    else
-        fprintf(ftraceOutput, "Process %c, TLB Miss, Page Fault, %d be paged out, Evict -1 of Process %c to -1, %d<<%d\n",
-                PTBR_TO_PROCESS, freePfn, PTBR_TO_PROCESS, refPage, pageTable[PTBR + refPage].pfn_dbi);
+    else //有 free frame 可直接分配，不用 evict victim page，就也不用從 swapSpace 載入 page
+        fprintf(ftraceOutput, "Process %c, TLB Miss, Page Fault, (pfn)%d, Evict (vpn)-1 of Process %c to (dbi)-1, (vpn)%d << (dbi)-1\n",
+                PTBR_TO_PROCESS, freePfn, PTBR_TO_PROCESS, refPage);
 
     fillPTE(PTBR, refPage, freePfn);
     fillTLB(refPage, freePfn);
@@ -241,6 +239,7 @@ int16_t addrTrans(int PTBR, uint16_t refPage)
         {
             stats[PTBR_TO_INDEX].pageFaultCnt++;
             pageFaultHandler(PTBR, refPage);
+            addrTrans(PTBR, refPage);
         }
     }
     return pfn;
