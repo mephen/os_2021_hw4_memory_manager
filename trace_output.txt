@@ -1,0 +1,519 @@
+Process A, TLB Miss, Page Fault, (pfn)0, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)71 << (dbi)-1
+Process A, TLB Hit, 71=>0
+Process A, TLB Miss, Page Fault, (pfn)1, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)58 << (dbi)-1
+Process A, TLB Hit, 58=>1
+Process A, TLB Miss, Page Fault, (pfn)2, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)89 << (dbi)-1
+Process A, TLB Hit, 89=>2
+Process A, TLB Miss, Page Fault, (pfn)3, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)91 << (dbi)-1
+Process A, TLB Hit, 91=>3
+Process A, TLB Miss, Page Fault, (pfn)4, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)11 << (dbi)-1
+Process A, TLB Hit, 11=>4
+Process A, TLB Miss, Page Fault, (pfn)5, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)80 << (dbi)-1
+Process A, TLB Hit, 80=>5
+Process A, TLB Miss, Page Fault, (pfn)6, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)62 << (dbi)-1
+Process A, TLB Hit, 62=>6
+Process A, TLB Miss, Page Fault, (pfn)7, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)18 << (dbi)-1
+Process A, TLB Hit, 18=>7
+Process A, TLB Miss, Page Fault, (pfn)8, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)65 << (dbi)-1
+Process A, TLB Hit, 65=>8
+Process A, TLB Miss, Page Fault, (pfn)9, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)53 << (dbi)-1
+Process A, TLB Hit, 53=>9
+Process A, TLB Miss, Page Fault, (pfn)10, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)33 << (dbi)-1
+Process A, TLB Hit, 33=>10
+Process A, TLB Miss, Page Fault, (pfn)11, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)16 << (dbi)-1
+Process A, TLB Hit, 16=>11
+Process A, TLB Miss, Page Fault, (pfn)12, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)68 << (dbi)-1
+Process A, TLB Hit, 68=>12
+Process A, TLB Miss, Page Fault, (pfn)13, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)54 << (dbi)-1
+Process A, TLB Hit, 54=>13
+Process A, TLB Miss, Page Fault, (pfn)14, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)34 << (dbi)-1
+Process A, TLB Hit, 34=>14
+Process A, TLB Miss, Page Fault, (pfn)15, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)32 << (dbi)-1
+Process A, TLB Hit, 32=>15
+Process A, TLB Hit, 16=>11
+Process A, TLB Miss, Page Fault, (pfn)16, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)93 << (dbi)-1
+Process A, TLB Hit, 93=>16
+Process A, TLB Miss, Page Fault, (pfn)17, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)4 << (dbi)-1
+Process A, TLB Hit, 4=>17
+Process A, TLB Miss, Page Fault, (pfn)18, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)44 << (dbi)-1
+Process A, TLB Hit, 44=>18
+Process A, TLB Miss, Page Fault, (pfn)19, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)10 << (dbi)-1
+Process A, TLB Hit, 10=>19
+Process A, TLB Miss, Page Fault, (pfn)20, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)87 << (dbi)-1
+Process A, TLB Hit, 87=>20
+Process A, TLB Miss, Page Fault, (pfn)21, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)88 << (dbi)-1
+Process A, TLB Hit, 88=>21
+Process A, TLB Hit, 71=>0
+Process A, TLB Miss, Page Fault, (pfn)22, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)36 << (dbi)-1
+Process A, TLB Hit, 36=>22
+Process A, TLB Miss, Page Fault, (pfn)23, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)3 << (dbi)-1
+Process A, TLB Hit, 3=>23
+Process A, TLB Miss, Page Fault, (pfn)24, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)96 << (dbi)-1
+Process A, TLB Hit, 96=>24
+Process A, TLB Miss, Page Fault, (pfn)25, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)23 << (dbi)-1
+Process A, TLB Hit, 23=>25
+Process A, TLB Hit, 11=>4
+Process A, TLB Miss, Page Fault, (pfn)26, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)81 << (dbi)-1
+Process A, TLB Hit, 81=>26
+Process A, TLB Miss, Page Fault, (pfn)27, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)61 << (dbi)-1
+Process A, TLB Hit, 61=>27
+Process A, TLB Miss, Page Fault, (pfn)28, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)60 << (dbi)-1
+Process A, TLB Hit, 60=>28
+Process A, TLB Miss, Page Fault, (pfn)29, Evict (vpn)-1 of Process A to (dbi)-1, (vpn)30 << (dbi)-1
+Process A, TLB Hit, 30=>29
+Process A, TLB Hit, 33=>10
+Process A, TLB Hit, 18=>7
+Process B, TLB Miss, Page Fault, (pfn)30, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)53 << (dbi)-1
+Process B, TLB Hit, 53=>30
+Process B, TLB Miss, Page Fault, (pfn)31, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)43 << (dbi)-1
+Process B, TLB Hit, 43=>31
+Process B, TLB Miss, Page Fault, (pfn)32, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)97 << (dbi)-1
+Process B, TLB Hit, 97=>32
+Process B, TLB Miss, Page Fault, (pfn)33, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)34 << (dbi)-1
+Process B, TLB Hit, 34=>33
+Process B, TLB Miss, Page Fault, (pfn)34, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)98 << (dbi)-1
+Process B, TLB Hit, 98=>34
+Process B, TLB Miss, Page Fault, (pfn)35, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)75 << (dbi)-1
+Process B, TLB Hit, 75=>35
+Process B, TLB Miss, Page Fault, (pfn)36, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)22 << (dbi)-1
+Process B, TLB Hit, 22=>36
+Process B, TLB Miss, Page Fault, (pfn)37, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)58 << (dbi)-1
+Process B, TLB Hit, 58=>37
+Process B, TLB Miss, Page Fault, (pfn)38, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)79 << (dbi)-1
+Process B, TLB Hit, 79=>38
+Process B, TLB Miss, Page Fault, (pfn)39, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)87 << (dbi)-1
+Process B, TLB Hit, 87=>39
+Process B, TLB Miss, Page Fault, (pfn)40, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)67 << (dbi)-1
+Process B, TLB Hit, 67=>40
+Process B, TLB Miss, Page Fault, (pfn)41, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)20 << (dbi)-1
+Process B, TLB Hit, 20=>41
+Process B, TLB Miss, Page Fault, (pfn)42, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)71 << (dbi)-1
+Process B, TLB Hit, 71=>42
+Process B, TLB Miss, Page Fault, (pfn)43, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)55 << (dbi)-1
+Process B, TLB Hit, 55=>43
+Process B, TLB Miss, Page Fault, (pfn)44, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)83 << (dbi)-1
+Process B, TLB Hit, 83=>44
+Process B, TLB Miss, Page Fault, (pfn)45, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)30 << (dbi)-1
+Process B, TLB Hit, 30=>45
+Process B, TLB Miss, Page Fault, (pfn)46, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)57 << (dbi)-1
+Process B, TLB Hit, 57=>46
+Process B, TLB Hit, 79=>38
+Process B, TLB Miss, Page Fault, (pfn)47, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)36 << (dbi)-1
+Process B, TLB Hit, 36=>47
+Process B, TLB Hit, 43=>31
+Process B, TLB Miss, Page Fault, (pfn)48, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)17 << (dbi)-1
+Process B, TLB Hit, 17=>48
+Process B, TLB Miss, Page Fault, (pfn)49, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)39 << (dbi)-1
+Process B, TLB Hit, 39=>49
+Process B, TLB Miss, Page Fault, (pfn)50, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)24 << (dbi)-1
+Process B, TLB Hit, 24=>50
+Process B, TLB Miss, Page Fault, (pfn)51, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)86 << (dbi)-1
+Process B, TLB Hit, 86=>51
+Process B, TLB Hit, 43=>31
+Process B, TLB Hit, 79=>38
+Process B, TLB Hit, 98=>34
+Process B, TLB Miss, Page Fault, (pfn)52, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)62 << (dbi)-1
+Process B, TLB Hit, 62=>52
+Process B, TLB Miss, Page Fault, (pfn)53, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)32 << (dbi)-1
+Process B, TLB Hit, 32=>53
+Process B, TLB Miss, Page Fault, (pfn)54, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)10 << (dbi)-1
+Process B, TLB Hit, 10=>54
+Process B, TLB Hit, 34=>33
+Process B, TLB Hit, 71=>42
+Process B, TLB Miss, Page Fault, (pfn)55, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)41 << (dbi)-1
+Process B, TLB Hit, 41=>55
+Process B, TLB Miss, Page Fault, (pfn)56, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)40 << (dbi)-1
+Process B, TLB Hit, 40=>56
+Process B, TLB Miss, Page Fault, (pfn)57, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)3 << (dbi)-1
+Process B, TLB Hit, 3=>57
+Process B, TLB Miss, Page Fault, (pfn)58, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)76 << (dbi)-1
+Process B, TLB Hit, 76=>58
+Process B, TLB Miss, Page Fault, (pfn)59, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)16 << (dbi)-1
+Process B, TLB Hit, 16=>59
+Process B, TLB Miss, Page Fault, (pfn)60, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)94 << (dbi)-1
+Process B, TLB Hit, 94=>60
+Process B, TLB Miss, Page Fault, (pfn)61, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)91 << (dbi)-1
+Process B, TLB Hit, 91=>61
+Process B, TLB Hit, 41=>55
+Process B, TLB Miss, Page Fault, (pfn)62, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)35 << (dbi)-1
+Process B, TLB Hit, 35=>62
+Process B, TLB Miss, Page Fault, (pfn)63, Evict (vpn)-1 of Process B to (dbi)-1, (vpn)2 << (dbi)-1
+Process B, TLB Hit, 2=>63
+Process B, TLB Miss, Page Fault, (pfn)0, Evict (vpn)71 of Process A to (dbi)0, (vpn)38 << (dbi)-1
+Process B, TLB Hit, 38=>0
+Process B, TLB Miss, Page Fault, (pfn)1, Evict (vpn)58 of Process A to (dbi)1, (vpn)45 << (dbi)-1
+Process B, TLB Hit, 45=>1
+Process B, TLB Miss, Page Fault, (pfn)2, Evict (vpn)89 of Process A to (dbi)2, (vpn)15 << (dbi)-1
+Process B, TLB Hit, 15=>2
+Process B, TLB Hit, 87=>39
+Process B, TLB Miss, Page Fault, (pfn)3, Evict (vpn)91 of Process A to (dbi)3, (vpn)26 << (dbi)-1
+Process B, TLB Hit, 26=>3
+Process B, TLB Miss, Page Fault, (pfn)4, Evict (vpn)11 of Process A to (dbi)4, (vpn)88 << (dbi)-1
+Process B, TLB Hit, 88=>4
+Process B, TLB Miss, Page Fault, (pfn)5, Evict (vpn)80 of Process A to (dbi)5, (vpn)48 << (dbi)-1
+Process B, TLB Hit, 48=>5
+Process B, TLB Miss, Page Hit, 20=>41
+Process B, TLB Miss, Page Fault, (pfn)6, Evict (vpn)62 of Process A to (dbi)6, (vpn)28 << (dbi)-1
+Process B, TLB Hit, 28=>6
+Process B, TLB Hit, 94=>60
+Process B, TLB Hit, 79=>38
+Process B, TLB Miss, Page Fault, (pfn)7, Evict (vpn)18 of Process A to (dbi)7, (vpn)8 << (dbi)-1
+Process B, TLB Hit, 8=>7
+Process B, TLB Miss, Page Fault, (pfn)8, Evict (vpn)65 of Process A to (dbi)8, (vpn)70 << (dbi)-1
+Process B, TLB Hit, 70=>8
+Process B, TLB Miss, Page Hit, 55=>43
+Process B, TLB Miss, Page Fault, (pfn)9, Evict (vpn)53 of Process A to (dbi)9, (vpn)47 << (dbi)-1
+Process B, TLB Hit, 47=>9
+Process B, TLB Miss, Page Hit, 97=>32
+Process B, TLB Miss, Page Fault, (pfn)10, Evict (vpn)33 of Process A to (dbi)10, (vpn)63 << (dbi)-1
+Process B, TLB Hit, 63=>10
+Process B, TLB Hit, 16=>59
+Process B, TLB Miss, Page Fault, (pfn)11, Evict (vpn)16 of Process A to (dbi)11, (vpn)12 << (dbi)-1
+Process B, TLB Hit, 12=>11
+Process B, TLB Miss, Page Hit, 83=>44
+Process B, TLB Miss, Page Fault, (pfn)12, Evict (vpn)68 of Process A to (dbi)12, (vpn)29 << (dbi)-1
+Process B, TLB Hit, 29=>12
+Process B, TLB Hit, 88=>4
+Process B, TLB Miss, Page Fault, (pfn)13, Evict (vpn)54 of Process A to (dbi)13, (vpn)96 << (dbi)-1
+Process B, TLB Hit, 96=>13
+Process B, TLB Hit, 88=>4
+Process B, TLB Miss, Page Fault, (pfn)14, Evict (vpn)34 of Process A to (dbi)14, (vpn)50 << (dbi)-1
+Process B, TLB Hit, 50=>14
+Process B, TLB Miss, Page Fault, (pfn)15, Evict (vpn)32 of Process A to (dbi)15, (vpn)108 << (dbi)-1
+Process B, TLB Hit, 108=>15
+Process A, TLB Miss, Page Fault, (pfn)16, Evict (vpn)93 of Process A to (dbi)16, (vpn)85 << (dbi)-1
+Process A, TLB Hit, 85=>16
+Process A, TLB Miss, Page Fault, (pfn)17, Evict (vpn)4 of Process A to (dbi)17, (vpn)22 << (dbi)-1
+Process A, TLB Hit, 22=>17
+Process A, TLB Miss, Page Hit, 44=>18
+Process A, TLB Miss, Page Fault, (pfn)18, Evict (vpn)44 of Process A to (dbi)18, (vpn)21 << (dbi)-1
+Process A, TLB Hit, 21=>18
+Process A, TLB Miss, Page Fault, (pfn)19, Evict (vpn)10 of Process A to (dbi)19, (vpn)17 << (dbi)-1
+Process A, TLB Hit, 17=>19
+Process A, TLB Miss, Page Fault, (pfn)20, Evict (vpn)87 of Process A to (dbi)20, (vpn)79 << (dbi)-1
+Process A, TLB Hit, 79=>20
+Process A, TLB Miss, Page Fault, (pfn)21, Evict (vpn)88 of Process A to (dbi)21, (vpn)42 << (dbi)-1
+Process A, TLB Hit, 42=>21
+Process A, TLB Miss, Page Fault, (pfn)22, Evict (vpn)36 of Process A to (dbi)22, (vpn)37 << (dbi)-1
+Process A, TLB Hit, 37=>22
+Process A, TLB Miss, Page Hit, 23=>25
+Process A, TLB Miss, Page Fault, (pfn)23, Evict (vpn)3 of Process A to (dbi)23, (vpn)57 << (dbi)-1
+Process A, TLB Hit, 57=>23
+Process A, TLB Miss, Page Fault, (pfn)24, Evict (vpn)96 of Process A to (dbi)24, (vpn)48 << (dbi)-1
+Process A, TLB Hit, 48=>24
+Process A, TLB Miss, Page Fault, (pfn)25, Evict (vpn)23 of Process A to (dbi)25, (vpn)101 << (dbi)-1
+Process A, TLB Hit, 101=>25
+Process A, TLB Miss, Page Fault, (pfn)26, Evict (vpn)81 of Process A to (dbi)26, (vpn)67 << (dbi)-1
+Process A, TLB Hit, 67=>26
+Process A, TLB Miss, Page Fault, (pfn)27, Evict (vpn)61 of Process A to (dbi)27, (vpn)86 << (dbi)-1
+Process A, TLB Hit, 86=>27
+Process A, TLB Hit, 17=>19
+Process A, TLB Miss, Page Fault, (pfn)28, Evict (vpn)60 of Process A to (dbi)28, (vpn)32 << (dbi)15
+Process A, TLB Hit, 32=>28
+Process A, TLB Miss, Page Fault, (pfn)29, Evict (vpn)30 of Process A to (dbi)29, (vpn)34 << (dbi)14
+Process A, TLB Hit, 34=>29
+Process A, TLB Miss, Page Fault, (pfn)30, Evict (vpn)53 of Process B to (dbi)30, (vpn)49 << (dbi)-1
+Process A, TLB Hit, 49=>30
+Process A, TLB Miss, Page Fault, (pfn)31, Evict (vpn)43 of Process B to (dbi)31, (vpn)61 << (dbi)27
+Process A, TLB Hit, 61=>31
+Process A, TLB Miss, Page Fault, (pfn)32, Evict (vpn)97 of Process B to (dbi)32, (vpn)65 << (dbi)8
+Process A, TLB Hit, 65=>32
+Process A, TLB Miss, Page Fault, (pfn)33, Evict (vpn)34 of Process B to (dbi)33, (vpn)26 << (dbi)-1
+Process A, TLB Hit, 26=>33
+Process A, TLB Miss, Page Fault, (pfn)34, Evict (vpn)98 of Process B to (dbi)34, (vpn)13 << (dbi)-1
+Process A, TLB Hit, 13=>34
+Process A, TLB Miss, Page Fault, (pfn)35, Evict (vpn)75 of Process B to (dbi)35, (vpn)82 << (dbi)-1
+Process A, TLB Hit, 82=>35
+Process A, TLB Miss, Page Fault, (pfn)36, Evict (vpn)22 of Process B to (dbi)36, (vpn)56 << (dbi)-1
+Process A, TLB Hit, 56=>36
+Process A, TLB Miss, Page Fault, (pfn)37, Evict (vpn)58 of Process B to (dbi)37, (vpn)51 << (dbi)-1
+Process A, TLB Hit, 51=>37
+Process A, TLB Miss, Page Fault, (pfn)38, Evict (vpn)79 of Process B to (dbi)38, (vpn)3 << (dbi)23
+Process A, TLB Hit, 3=>38
+Process A, TLB Miss, Page Fault, (pfn)39, Evict (vpn)87 of Process B to (dbi)39, (vpn)69 << (dbi)-1
+Process A, TLB Hit, 69=>39
+Process A, TLB Hit, 57=>23
+Process A, TLB Miss, Page Fault, (pfn)40, Evict (vpn)67 of Process B to (dbi)40, (vpn)9 << (dbi)-1
+Process A, TLB Hit, 9=>40
+Process A, TLB Miss, Page Fault, (pfn)41, Evict (vpn)20 of Process B to (dbi)41, (vpn)94 << (dbi)-1
+Process A, TLB Hit, 94=>41
+Process A, TLB Hit, 42=>21
+Process A, TLB Miss, Page Fault, (pfn)42, Evict (vpn)71 of Process B to (dbi)42, (vpn)90 << (dbi)-1
+Process A, TLB Hit, 90=>42
+Process A, TLB Hit, 65=>32
+Process A, TLB Hit, 86=>27
+Process A, TLB Hit, 56=>36
+Process A, TLB Miss, Page Fault, (pfn)43, Evict (vpn)55 of Process B to (dbi)43, (vpn)89 << (dbi)2
+Process A, TLB Hit, 89=>43
+Process A, TLB Miss, Page Fault, (pfn)44, Evict (vpn)83 of Process B to (dbi)44, (vpn)75 << (dbi)-1
+Process A, TLB Hit, 75=>44
+Process A, TLB Miss, Page Fault, (pfn)45, Evict (vpn)30 of Process B to (dbi)45, (vpn)53 << (dbi)9
+Process A, TLB Hit, 53=>45
+Process A, TLB Miss, Page Fault, (pfn)46, Evict (vpn)57 of Process B to (dbi)46, (vpn)5 << (dbi)-1
+Process A, TLB Hit, 5=>46
+Process A, TLB Hit, 34=>29
+Process A, TLB Miss, Page Fault, (pfn)47, Evict (vpn)36 of Process B to (dbi)47, (vpn)45 << (dbi)-1
+Process A, TLB Hit, 45=>47
+Process A, TLB Miss, Page Fault, (pfn)48, Evict (vpn)17 of Process B to (dbi)48, (vpn)11 << (dbi)4
+Process A, TLB Hit, 11=>48
+Process A, TLB Miss, Page Fault, (pfn)49, Evict (vpn)39 of Process B to (dbi)49, (vpn)83 << (dbi)-1
+Process A, TLB Hit, 83=>49
+Process A, TLB Hit, 90=>42
+Process A, TLB Miss, Page Fault, (pfn)50, Evict (vpn)24 of Process B to (dbi)50, (vpn)74 << (dbi)-1
+Process A, TLB Hit, 74=>50
+Process A, TLB Miss, Page Fault, (pfn)51, Evict (vpn)86 of Process B to (dbi)51, (vpn)63 << (dbi)-1
+Process A, TLB Hit, 63=>51
+Process A, TLB Miss, Page Fault, (pfn)52, Evict (vpn)62 of Process B to (dbi)52, (vpn)30 << (dbi)29
+Process A, TLB Hit, 30=>52
+Process A, TLB Miss, Page Fault, (pfn)53, Evict (vpn)32 of Process B to (dbi)53, (vpn)55 << (dbi)-1
+Process A, TLB Hit, 55=>53
+Process A, TLB Miss, Page Fault, (pfn)54, Evict (vpn)10 of Process B to (dbi)54, (vpn)92 << (dbi)-1
+Process A, TLB Hit, 92=>54
+Process A, TLB Miss, Page Fault, (pfn)55, Evict (vpn)41 of Process B to (dbi)55, (vpn)60 << (dbi)28
+Process A, TLB Hit, 60=>55
+Process A, TLB Miss, Page Fault, (pfn)56, Evict (vpn)40 of Process B to (dbi)56, (vpn)1 << (dbi)-1
+Process A, TLB Hit, 1=>56
+Process A, TLB Miss, Page Fault, (pfn)57, Evict (vpn)3 of Process B to (dbi)57, (vpn)98 << (dbi)-1
+Process A, TLB Hit, 98=>57
+Process A, TLB Hit, 49=>30
+Process A, TLB Miss, Page Fault, (pfn)58, Evict (vpn)76 of Process B to (dbi)58, (vpn)77 << (dbi)-1
+Process A, TLB Hit, 77=>58
+Process A, TLB Miss, Page Fault, (pfn)59, Evict (vpn)16 of Process B to (dbi)59, (vpn)97 << (dbi)-1
+Process A, TLB Hit, 97=>59
+Process A, TLB Miss, Page Fault, (pfn)60, Evict (vpn)94 of Process B to (dbi)60, (vpn)109 << (dbi)-1
+Process A, TLB Hit, 109=>60
+Process A, TLB Hit, 98=>57
+Process A, TLB Miss, Page Fault, (pfn)61, Evict (vpn)91 of Process B to (dbi)61, (vpn)72 << (dbi)-1
+Process A, TLB Hit, 72=>61
+Process A, TLB Miss, Page Fault, (pfn)62, Evict (vpn)35 of Process B to (dbi)62, (vpn)27 << (dbi)-1
+Process A, TLB Hit, 27=>62
+Process A, TLB Miss, Page Fault, (pfn)63, Evict (vpn)2 of Process B to (dbi)63, (vpn)71 << (dbi)0
+Process A, TLB Hit, 71=>63
+Process A, TLB Miss, Page Hit, 22=>17
+Process A, TLB Hit, 57=>23
+Process A, TLB Miss, Page Fault, (pfn)0, Evict (vpn)38 of Process B to (dbi)64, (vpn)78 << (dbi)-1
+Process A, TLB Hit, 78=>0
+Process A, TLB Hit, 9=>40
+Process A, TLB Miss, Page Fault, (pfn)1, Evict (vpn)45 of Process B to (dbi)65, (vpn)73 << (dbi)-1
+Process A, TLB Hit, 73=>1
+Process A, TLB Hit, 92=>54
+Process A, TLB Miss, Page Fault, (pfn)2, Evict (vpn)15 of Process B to (dbi)66, (vpn)16 << (dbi)11
+Process A, TLB Hit, 16=>2
+Process A, TLB Miss, Page Fault, (pfn)3, Evict (vpn)26 of Process B to (dbi)67, (vpn)99 << (dbi)-1
+Process A, TLB Hit, 99=>3
+Process A, TLB Miss, Page Fault, (pfn)4, Evict (vpn)88 of Process B to (dbi)68, (vpn)50 << (dbi)-1
+Process A, TLB Hit, 50=>4
+Process A, TLB Miss, Page Fault, (pfn)5, Evict (vpn)48 of Process B to (dbi)69, (vpn)25 << (dbi)-1
+Process A, TLB Hit, 25=>5
+Process A, TLB Miss, Page Hit, 82=>35
+Process A, TLB Miss, Page Hit, 67=>26
+Process A, TLB Miss, Page Fault, (pfn)6, Evict (vpn)28 of Process B to (dbi)70, (vpn)62 << (dbi)6
+Process A, TLB Hit, 62=>6
+Process A, TLB Miss, Page Hit, 17=>19
+Process A, TLB Hit, 73=>1
+Process A, TLB Hit, 16=>2
+Process A, TLB Hit, 25=>5
+Process A, TLB Miss, Page Hit, 37=>22
+Process A, TLB Miss, Page Fault, (pfn)7, Evict (vpn)8 of Process B to (dbi)71, (vpn)8 << (dbi)-1
+Process A, TLB Hit, 8=>7
+Process A, TLB Miss, Page Fault, (pfn)8, Evict (vpn)70 of Process B to (dbi)72, (vpn)20 << (dbi)-1
+Process A, TLB Hit, 20=>8
+Process A, TLB Miss, Page Hit, 56=>36
+Process A, TLB Hit, 72=>61
+Process A, TLB Miss, Page Fault, (pfn)9, Evict (vpn)47 of Process B to (dbi)73, (vpn)2 << (dbi)-1
+Process A, TLB Hit, 2=>9
+Process A, TLB Miss, Page Fault, (pfn)10, Evict (vpn)63 of Process B to (dbi)74, (vpn)31 << (dbi)-1
+Process A, TLB Hit, 31=>10
+Process A, TLB Hit, 31=>10
+Process A, TLB Hit, 78=>0
+Process A, TLB Miss, Page Hit, 86=>27
+Process A, TLB Hit, 97=>59
+Process A, TLB Miss, Page Fault, (pfn)11, Evict (vpn)12 of Process B to (dbi)75, (vpn)80 << (dbi)5
+Process A, TLB Hit, 80=>11
+Process A, TLB Miss, Page Fault, (pfn)12, Evict (vpn)29 of Process B to (dbi)76, (vpn)70 << (dbi)-1
+Process A, TLB Hit, 70=>12
+Process A, TLB Hit, 16=>2
+Process A, TLB Miss, Page Fault, (pfn)13, Evict (vpn)96 of Process B to (dbi)77, (vpn)46 << (dbi)-1
+Process A, TLB Hit, 46=>13
+Process A, TLB Miss, Page Hit, 32=>28
+Process A, TLB Miss, Page Fault, (pfn)14, Evict (vpn)50 of Process B to (dbi)78, (vpn)87 << (dbi)20
+Process A, TLB Hit, 87=>14
+Process A, TLB Miss, Page Fault, (pfn)15, Evict (vpn)108 of Process B to (dbi)79, (vpn)35 << (dbi)-1
+Process A, TLB Hit, 35=>15
+Process A, TLB Miss, Page Fault, (pfn)16, Evict (vpn)85 of Process A to (dbi)80, (vpn)18 << (dbi)7
+Process A, TLB Hit, 18=>16
+Process A, TLB Hit, 50=>4
+Process A, TLB Miss, Page Fault, (pfn)17, Evict (vpn)22 of Process A to (dbi)81, (vpn)66 << (dbi)-1
+Process A, TLB Hit, 66=>17
+Process A, TLB Miss, Page Fault, (pfn)18, Evict (vpn)21 of Process A to (dbi)82, (vpn)36 << (dbi)22
+Process A, TLB Hit, 36=>18
+Process A, TLB Miss, Page Fault, (pfn)19, Evict (vpn)17 of Process A to (dbi)83, (vpn)33 << (dbi)10
+Process A, TLB Hit, 33=>19
+Process A, TLB Miss, Page Hit, 74=>50
+Process A, TLB Miss, Page Fault, (pfn)20, Evict (vpn)79 of Process A to (dbi)84, (vpn)43 << (dbi)-1
+Process A, TLB Hit, 43=>20
+Process B, TLB Miss, Page Fault, (pfn)21, Evict (vpn)42 of Process A to (dbi)85, (vpn)71 << (dbi)42
+Process B, TLB Hit, 71=>21
+Process B, TLB Miss, Page Fault, (pfn)22, Evict (vpn)37 of Process A to (dbi)86, (vpn)55 << (dbi)43
+Process B, TLB Hit, 55=>22
+Process B, TLB Miss, Page Fault, (pfn)23, Evict (vpn)57 of Process A to (dbi)87, (vpn)91 << (dbi)61
+Process B, TLB Hit, 91=>23
+Process B, TLB Miss, Page Fault, (pfn)24, Evict (vpn)48 of Process A to (dbi)88, (vpn)70 << (dbi)72
+Process B, TLB Hit, 70=>24
+Process B, TLB Miss, Page Fault, (pfn)25, Evict (vpn)101 of Process A to (dbi)89, (vpn)52 << (dbi)-1
+Process B, TLB Hit, 52=>25
+Process B, TLB Miss, Page Fault, (pfn)26, Evict (vpn)67 of Process A to (dbi)90, (vpn)96 << (dbi)77
+Process B, TLB Hit, 96=>26
+Process B, TLB Miss, Page Fault, (pfn)27, Evict (vpn)86 of Process A to (dbi)91, (vpn)92 << (dbi)-1
+Process B, TLB Hit, 92=>27
+Process B, TLB Miss, Page Fault, (pfn)28, Evict (vpn)32 of Process A to (dbi)92, (vpn)29 << (dbi)76
+Process B, TLB Hit, 29=>28
+Process B, TLB Miss, Page Fault, (pfn)29, Evict (vpn)34 of Process A to (dbi)93, (vpn)123 << (dbi)-1
+Process B, TLB Hit, 123=>29
+Process B, TLB Miss, Page Fault, (pfn)30, Evict (vpn)49 of Process A to (dbi)94, (vpn)98 << (dbi)34
+Process B, TLB Hit, 98=>30
+Process B, TLB Miss, Page Fault, (pfn)31, Evict (vpn)61 of Process A to (dbi)95, (vpn)82 << (dbi)-1
+Process B, TLB Hit, 82=>31
+Process B, TLB Hit, 82=>31
+Process B, TLB Miss, Page Fault, (pfn)32, Evict (vpn)65 of Process A to (dbi)96, (vpn)76 << (dbi)58
+Process B, TLB Hit, 76=>32
+Process B, TLB Miss, Page Fault, (pfn)33, Evict (vpn)26 of Process A to (dbi)97, (vpn)43 << (dbi)31
+Process B, TLB Hit, 43=>33
+Process B, TLB Miss, Page Fault, (pfn)34, Evict (vpn)13 of Process A to (dbi)98, (vpn)45 << (dbi)65
+Process B, TLB Hit, 45=>34
+Process B, TLB Miss, Page Fault, (pfn)35, Evict (vpn)82 of Process A to (dbi)99, (vpn)12 << (dbi)75
+Process B, TLB Hit, 12=>35
+Process B, TLB Hit, 71=>21
+Process B, TLB Miss, Page Fault, (pfn)36, Evict (vpn)56 of Process A to (dbi)100, (vpn)36 << (dbi)47
+Process B, TLB Hit, 36=>36
+Process B, TLB Miss, Page Fault, (pfn)37, Evict (vpn)51 of Process A to (dbi)101, (vpn)27 << (dbi)-1
+Process B, TLB Hit, 27=>37
+Process B, TLB Miss, Page Fault, (pfn)38, Evict (vpn)3 of Process A to (dbi)102, (vpn)93 << (dbi)-1
+Process B, TLB Hit, 93=>38
+Process B, TLB Hit, 45=>34
+Process B, TLB Hit, 29=>28
+Process B, TLB Miss, Page Fault, (pfn)39, Evict (vpn)69 of Process A to (dbi)103, (vpn)1 << (dbi)-1
+Process B, TLB Hit, 1=>39
+Process B, TLB Miss, Page Fault, (pfn)40, Evict (vpn)9 of Process A to (dbi)104, (vpn)9 << (dbi)-1
+Process B, TLB Hit, 9=>40
+Process B, TLB Miss, Page Fault, (pfn)41, Evict (vpn)94 of Process A to (dbi)105, (vpn)23 << (dbi)-1
+Process B, TLB Hit, 23=>41
+Process B, TLB Miss, Page Fault, (pfn)42, Evict (vpn)90 of Process A to (dbi)106, (vpn)19 << (dbi)-1
+Process B, TLB Hit, 19=>42
+Process B, TLB Hit, 96=>26
+Process B, TLB Miss, Page Fault, (pfn)43, Evict (vpn)89 of Process A to (dbi)107, (vpn)7 << (dbi)-1
+Process B, TLB Hit, 7=>43
+Process B, TLB Miss, Page Fault, (pfn)44, Evict (vpn)75 of Process A to (dbi)108, (vpn)80 << (dbi)-1
+Process B, TLB Hit, 80=>44
+Process B, TLB Miss, Page Fault, (pfn)45, Evict (vpn)53 of Process A to (dbi)109, (vpn)37 << (dbi)-1
+Process B, TLB Hit, 37=>45
+Process B, TLB Miss, Page Fault, (pfn)46, Evict (vpn)5 of Process A to (dbi)110, (vpn)3 << (dbi)57
+Process B, TLB Hit, 3=>46
+Process B, TLB Miss, Page Fault, (pfn)47, Evict (vpn)45 of Process A to (dbi)111, (vpn)24 << (dbi)50
+Process B, TLB Hit, 24=>47
+Process B, TLB Miss, Page Fault, (pfn)48, Evict (vpn)11 of Process A to (dbi)112, (vpn)86 << (dbi)51
+Process B, TLB Hit, 86=>48
+Process B, TLB Hit, 52=>25
+Process B, TLB Miss, Page Fault, (pfn)49, Evict (vpn)83 of Process A to (dbi)113, (vpn)13 << (dbi)-1
+Process B, TLB Hit, 13=>49
+Process B, TLB Hit, 37=>45
+Process B, TLB Hit, 52=>25
+Process B, TLB Miss, Page Fault, (pfn)50, Evict (vpn)74 of Process A to (dbi)114, (vpn)22 << (dbi)36
+Process B, TLB Hit, 22=>50
+Process B, TLB Miss, Page Fault, (pfn)51, Evict (vpn)63 of Process A to (dbi)115, (vpn)4 << (dbi)-1
+Process B, TLB Hit, 4=>51
+Process B, TLB Hit, 37=>45
+Process B, TLB Hit, 86=>48
+Process B, TLB Miss, Page Fault, (pfn)52, Evict (vpn)30 of Process A to (dbi)116, (vpn)84 << (dbi)-1
+Process B, TLB Hit, 84=>52
+Process B, TLB Miss, Page Fault, (pfn)53, Evict (vpn)55 of Process A to (dbi)117, (vpn)10 << (dbi)54
+Process B, TLB Hit, 10=>53
+Process B, TLB Miss, Page Fault, (pfn)54, Evict (vpn)92 of Process A to (dbi)118, (vpn)8 << (dbi)71
+Process B, TLB Hit, 8=>54
+Process B, TLB Miss, Page Fault, (pfn)55, Evict (vpn)60 of Process A to (dbi)119, (vpn)31 << (dbi)-1
+Process B, TLB Hit, 31=>55
+Process B, TLB Hit, 12=>35
+Process B, TLB Miss, Page Fault, (pfn)56, Evict (vpn)1 of Process A to (dbi)120, (vpn)53 << (dbi)30
+Process B, TLB Hit, 53=>56
+Process B, TLB Miss, Page Fault, (pfn)57, Evict (vpn)98 of Process A to (dbi)121, (vpn)64 << (dbi)-1
+Process B, TLB Hit, 64=>57
+Process B, TLB Hit, 64=>57
+Process B, TLB Miss, Page Fault, (pfn)58, Evict (vpn)77 of Process A to (dbi)122, (vpn)59 << (dbi)-1
+Process B, TLB Hit, 59=>58
+Process B, TLB Hit, 12=>35
+Process B, TLB Hit, 27=>37
+Process B, TLB Miss, Page Hit, 92=>27
+Process B, TLB Miss, Page Fault, (pfn)59, Evict (vpn)97 of Process A to (dbi)123, (vpn)16 << (dbi)59
+Process B, TLB Hit, 16=>59
+Process B, TLB Miss, Page Fault, (pfn)60, Evict (vpn)109 of Process A to (dbi)124, (vpn)38 << (dbi)64
+Process B, TLB Hit, 38=>60
+Process B, TLB Miss, Page Fault, (pfn)61, Evict (vpn)72 of Process A to (dbi)125, (vpn)94 << (dbi)60
+Process B, TLB Hit, 94=>61
+Process B, TLB Hit, 4=>51
+Process B, TLB Miss, Page Hit, 92=>27
+Process B, TLB Miss, Page Fault, (pfn)62, Evict (vpn)27 of Process A to (dbi)126, (vpn)18 << (dbi)-1
+Process B, TLB Hit, 18=>62
+Process B, TLB Hit, 37=>45
+Process B, TLB Miss, Page Fault, (pfn)63, Evict (vpn)71 of Process A to (dbi)127, (vpn)5 << (dbi)-1
+Process B, TLB Hit, 5=>63
+Process B, TLB Miss, Page Fault, (pfn)0, Evict (vpn)78 of Process A to (dbi)128, (vpn)15 << (dbi)66
+Process B, TLB Hit, 15=>0
+Process B, TLB Miss, Page Fault, (pfn)1, Evict (vpn)73 of Process A to (dbi)129, (vpn)61 << (dbi)-1
+Process B, TLB Hit, 61=>1
+Process B, TLB Miss, Page Hit, 45=>34
+Process B, TLB Miss, Page Fault, (pfn)2, Evict (vpn)16 of Process A to (dbi)130, (vpn)14 << (dbi)-1
+Process B, TLB Hit, 14=>2
+Process B, TLB Miss, Page Fault, (pfn)3, Evict (vpn)99 of Process A to (dbi)131, (vpn)35 << (dbi)62
+Process B, TLB Hit, 35=>3
+Process B, TLB Miss, Page Hit, 71=>21
+Process B, TLB Hit, 31=>55
+Process B, TLB Miss, Page Fault, (pfn)4, Evict (vpn)50 of Process A to (dbi)132, (vpn)51 << (dbi)-1
+Process B, TLB Hit, 51=>4
+Process B, TLB Miss, Page Fault, (pfn)5, Evict (vpn)25 of Process A to (dbi)133, (vpn)48 << (dbi)69
+Process B, TLB Hit, 48=>5
+Process B, TLB Miss, Page Fault, (pfn)6, Evict (vpn)62 of Process A to (dbi)134, (vpn)34 << (dbi)33
+Process B, TLB Hit, 34=>6
+Process B, TLB Miss, Page Fault, (pfn)7, Evict (vpn)8 of Process A to (dbi)135, (vpn)57 << (dbi)46
+Process B, TLB Hit, 57=>7
+Process B, TLB Miss, Page Fault, (pfn)8, Evict (vpn)20 of Process A to (dbi)136, (vpn)69 << (dbi)-1
+Process B, TLB Hit, 69=>8
+Process B, TLB Miss, Page Fault, (pfn)9, Evict (vpn)2 of Process A to (dbi)137, (vpn)103 << (dbi)-1
+Process B, TLB Hit, 103=>9
+Process B, TLB Miss, Page Fault, (pfn)10, Evict (vpn)31 of Process A to (dbi)138, (vpn)44 << (dbi)-1
+Process B, TLB Hit, 44=>10
+Process B, TLB Miss, Page Fault, (pfn)11, Evict (vpn)80 of Process A to (dbi)139, (vpn)11 << (dbi)-1
+Process B, TLB Hit, 11=>11
+Process B, TLB Miss, Page Fault, (pfn)12, Evict (vpn)70 of Process A to (dbi)140, (vpn)85 << (dbi)-1
+Process B, TLB Hit, 85=>12
+Process B, TLB Hit, 10=>53
+Process B, TLB Miss, Page Fault, (pfn)13, Evict (vpn)46 of Process A to (dbi)141, (vpn)56 << (dbi)-1
+Process B, TLB Hit, 56=>13
+Process B, TLB Miss, Page Hit, 98=>30
+Process B, TLB Miss, Page Fault, (pfn)14, Evict (vpn)87 of Process A to (dbi)142, (vpn)97 << (dbi)32
+Process B, TLB Hit, 97=>14
+Process B, TLB Miss, Page Hit, 80=>44
+Process B, TLB Miss, Page Fault, (pfn)15, Evict (vpn)35 of Process A to (dbi)143, (vpn)65 << (dbi)-1
+Process B, TLB Hit, 65=>15
+Process B, TLB Miss, Page Fault, (pfn)16, Evict (vpn)18 of Process A to (dbi)144, (vpn)68 << (dbi)-1
+Process B, TLB Hit, 68=>16
+Process B, TLB Miss, Page Fault, (pfn)17, Evict (vpn)66 of Process A to (dbi)145, (vpn)72 << (dbi)-1
+Process B, TLB Hit, 72=>17
+Process B, TLB Miss, Page Hit, 93=>38
+Process B, TLB Hit, 51=>4
+Process B, TLB Miss, Page Hit, 76=>32
+Process B, TLB Miss, Page Hit, 9=>40
+Process B, TLB Miss, Page Fault, (pfn)18, Evict (vpn)36 of Process A to (dbi)146, (vpn)83 << (dbi)44
+Process B, TLB Hit, 83=>18
+Process B, TLB Miss, Page Hit, 70=>24
+Process B, TLB Miss, Page Fault, (pfn)19, Evict (vpn)33 of Process A to (dbi)147, (vpn)66 << (dbi)-1
+Process B, TLB Hit, 66=>19
+Process B, TLB Miss, Page Hit, 55=>22
+Process B, TLB Miss, Page Hit, 9=>40
+Process B, TLB Hit, 11=>11
+Process B, TLB Miss, Page Hit, 91=>23
+Process B, TLB Hit, 18=>62
+Process B, TLB Hit, 72=>17
+Process B, TLB Miss, Page Hit, 29=>28
+Process B, TLB Hit, 15=>0
+Process B, TLB Hit, 44=>10
+Process B, TLB Hit, 94=>61

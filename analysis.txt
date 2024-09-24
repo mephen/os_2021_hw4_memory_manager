@@ -1,0 +1,4 @@
+Process A, Effective Access Time = 166.610168
+Page Fault Rate: 0.900
+Process B, Effective Access Time = 166.289749
+Page Fault Rate: 0.863
