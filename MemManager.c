@@ -2,16 +2,16 @@
 
 //---------------------------------------
 /*TLB operation*/
-void flushTLB() //清空(全設 invalid)
+void flushTLB() //
 {
     for (int i = 0; i < 32; i++)
-        tlbEntry[i].valid = false;
+        tlbEntry[i].valid = true;
 }
 int16_t TLBLookup(uint16_t vpn)
 {
     for (int i = 0; i < 32; i++)
     {
-        if (tlbEntry[i].valid && tlbEntry[i].vpn == vpn)
+        if (!tlbEntry[i].valid && tlbEntry[i].vpn == vpn)
         {
             if (tlbPolicy == LRU)
                 tlbLRU[i] = tlbCounter++;
@@ -47,7 +47,7 @@ void fillTLB(uint16_t vpn, int pfn)
     int i;
     for (i=0; i<32; i++)
     {
-        if (!tlbEntry[i].valid)
+        if (tlbEntry[i].valid)
             break;
     }
     // there is no empty slot for TLB entries
@@ -57,7 +57,7 @@ void fillTLB(uint16_t vpn, int pfn)
         tlbLRU[i] = tlbCounter++;
     tlbEntry[i].vpn = vpn;
     tlbEntry[i].pfn = pfn;
-    tlbEntry[i].valid = true;
+    tlbEntry[i].valid = false;
 }
 //---------------------------------------
 /*PTE operation*/
@@ -98,7 +98,6 @@ void fillPTE(int PTBR, uint16_t vpn, int pfn)
     pageTable[PTBR + vpn].bitField.bits.present = 1;
     pageTable[PTBR + vpn].pfn_dbi = pfn;
 }
-/*apply TLB replacement policy, page replacement policy, and frame allocation policy*/
 int kickPage(int PTBR, uint16_t refPage)
 {
     ReplaceListType *curNode;
@@ -168,8 +167,6 @@ int kickPage(int PTBR, uint16_t refPage)
         curLocalReplaceNode[PTBR_TO_INDEX].head = curNode->next;
     else
         curReplaceNode = curNode->next;
-
-    // 在释放之前获取返回值(block number)
     free(curNode);
     
     return pfn; //physical memory index(0~63)，不是 swapSpace index(0~255)：pageTable[(curNode->proc * virPage) + curNode->vpn].pfn_dbi
@@ -193,7 +190,9 @@ int freeFrameManager()
     // no free frame
     return -1;
 }
-/*allocate frame, update PTE and TLB*/
+/*allocate frame, update PTE and TLB
+ *apply TLB replacement policy, page replacement policy, and frame allocation policy
+ */
 int16_t pageFaultHandler(int PTBR, uint16_t refPage)
 {
     int freePfn = -1;
@@ -378,7 +377,7 @@ int main()
         curReplaceNode = malloc(sizeof(ReplaceListType));
         curReplaceNode->next = curReplaceNode->prev = NULL;
         // printf("global list process %d\n", curReplaceNode->proc);
-        printf("%d, %d\n", curReplaceNode->proc, curReplaceNode->vpn);
+        // printf("%d, %d\n", curReplaceNode->proc, curReplaceNode->vpn);
     }
     // create StatsType array: store the StatsType for each process
     stats = malloc(numProc * sizeof(StatsType));
