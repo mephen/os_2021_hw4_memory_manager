@@ -73,7 +73,14 @@ void fillPTE(int PTBR, uint16_t vpn, int pfn)
         curNode = curLocalReplaceNode[PTBR_TO_INDEX].head;
     else
         curNode = curReplaceNode;
-    if (curNode->next != NULL)
+    
+    if (curNode->next == NULL && curNode->prev == NULL) //only one victim node in the list 
+    {
+        curNode->vpn = vpn;
+        curNode->proc = PTBR_TO_INDEX;
+        curNode->next = curNode->prev = curNode;
+    }
+    else //newNode is the last victim (prev of curNode)
     {
         newNode = malloc(sizeof(ReplaceListType));
         newNode->vpn = vpn;
@@ -83,20 +90,14 @@ void fillPTE(int PTBR, uint16_t vpn, int pfn)
         curNode->prev->next = newNode;
         curNode->prev = newNode;
     }
-    else
-    {
-        curNode->vpn = vpn;
-        curNode->proc = PTBR_TO_INDEX;
-        curNode->next = curNode->prev = curNode;
-    }
-    if (pagePolicy == CLOCK)
-        pageTable[PTBR + vpn].bitField.bits.reference = 1;
 
+    //allocate frame, update pageTable
     phyMem[pfn].frameValid = false;
     pageTable[PTBR + vpn].bitField.bits.present = 1;
+    pageTable[PTBR + vpn].bitField.bits.reference = 0;
     pageTable[PTBR + vpn].pfn_dbi = pfn;
 }
-int kickPage(int PTBR, uint16_t refPage)
+int kickFrame(int PTBR, uint16_t refPage)
 {
     ReplaceListType *curNode;
     int16_t pfn;
@@ -119,7 +120,7 @@ int kickPage(int PTBR, uint16_t refPage)
 
     // 检查 curNode 是否为 NULL
     if (curNode == NULL) {
-        fprintf(stderr, "Error: curNode is NULL in kickPage.\n");
+        fprintf(stderr, "Error: curNode is NULL in kickFrame.\n");
         exit(EXIT_FAILURE);
         return -1;
     }
@@ -128,7 +129,7 @@ int kickPage(int PTBR, uint16_t refPage)
     if (curNode->proc >= 0 && curNode->proc < numProc && curNode->vpn >= 0 && curNode->vpn < virPage) {
         pfn = pageTable[(curNode->proc * virPage) + curNode->vpn].pfn_dbi;
     } else {
-        fprintf(stderr, "Error: Invalid proc or vpn in kickPage.\n");
+        fprintf(stderr, "Error: Invalid proc or vpn in kickFrame.\n");
         exit(EXIT_FAILURE);
         return -1;
     }
@@ -149,6 +150,7 @@ int kickPage(int PTBR, uint16_t refPage)
     fprintf(ftraceOutput, "Process %c, TLB Miss, Page Fault, (pfn)%d, Evict (vpn)%d of Process %c to (dbi)%d, (vpn)%d << (dbi)%d\n",
             PTBR_TO_PROCESS, pfn, curNode->vpn, (curNode->proc + C_CHAR_OFFSET), dbi, refPage, pageTable[PTBR + refPage].pfn_dbi); //curNode 是被换出的页面，PTBR + refPage 是要載入的頁面
 
+    // 更新 pageTable
     pageTable[(curNode->proc * virPage) + curNode->vpn].bitField.byte = 0;
     pageTable[(curNode->proc * virPage) + curNode->vpn].pfn_dbi = dbi;
 
@@ -196,7 +198,7 @@ int16_t pageFaultHandler(int PTBR, uint16_t refPage)
     int freePfn = -1;
     freePfn = freeFrameManager();
     if (freePfn == -1) // there is no free frames
-        freePfn = kickPage(PTBR, refPage);
+        freePfn = kickFrame(PTBR, refPage);
     else //有 free frame 可直接分配，不用 evict victim page，就也不用從 swapSpace 載入 page
         fprintf(ftraceOutput, "Process %c, TLB Miss, Page Fault, (pfn)%d, Evict (vpn)-1 of Process %c to (dbi)-1, (vpn)%d << (dbi)-1\n",
                 PTBR_TO_PROCESS, freePfn, PTBR_TO_PROCESS, refPage);
