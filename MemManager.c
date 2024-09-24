@@ -229,7 +229,7 @@ int16_t pageFaultHandler(int PTBR, uint16_t refPage)
 
     return freePfn;
 }
-/*search referenced page in page table*/
+/*search referenced page in page table. repeat until TLB hit*/
 int16_t addrTrans(int PTBR, uint16_t refPage)
 {
     int16_t pfn = -1;
@@ -255,7 +255,9 @@ int16_t addrTrans(int PTBR, uint16_t refPage)
             fprintf(ftraceOutput, "Process %c, TLB Miss, Page Hit, %d=>%d\n",PTBR_TO_PROCESS, refPage, pfn);
             if (pagePolicy == CLOCK)
                 pageTable[PTBR + refPage].bitField.bits.reference = 1;
-            return pfn;
+            //update TLB & search referenced page again
+            fillTLB(refPage, pfn);
+            addrTrans(PTBR, refPage);
         }
         // page fault
         else
